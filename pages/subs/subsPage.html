@@ -7,7 +7,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playpen+Sans+Hebrew:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="subsPageStyles.css">
     <meta charset="UTF-8">
 </head>
 
@@ -35,7 +35,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">Community</a></li>
-                <li><a href="../subs/subsPage.html">Subscription</a></li>
+                <li><a href="#">Subscription</a></li>
             </ul>
         </nav>
 
@@ -46,70 +46,80 @@
     <!-- main section-->
 
     <main>
-<section class="banner">
+        <!-- banner section-->
+
+        <section class="banner">
     <div class="banner-content">
-        <h1 class="unleash">Unleash</h1>
+        <h1 class="create">Create</h1>
         <h1 class="your">Your</h1>
-        <h1 class="abilities">Abilities</h1>
+        <h1 class="future">Future</h1>
         </div>
         <div class="banner-text">
-        <p>המפגש שלכם עם הכוכבים של הספורט הישראלי , בואו ללמוד מאלה שעשו זאת ובגדול</p>
-        <button class="button">הצטרפו אלינו</button>
+        <h2>!ברוכים הבאים</h2>
+        <p>הירשמו  עכשיו ותיהנו מגישה לתוכן בלעדי , ידע מקצועי בלתי מתפשר וקהילה תומכת </p>
         </div>
 </section>
+        <!-- cards section-->
 
-<section class="cards">
-<div class="card-courses">
-    <div class="card-title">
-<img src="../../images/CO94.png" alt="Courses Icon">
-    <h2>Courses</h2>
+<section class="subscriptions">
+<div class="monthly-basic">
+    <div class="sub-card-title">
+    <h2>מנוי חודשי - בסיסי</h2>
     </div>
-    
-    <p>גלה את מגוון הקורסים הרחב שלנו, שנבנו כדי לעזור לך להצליח</p>
-    <button class="button">ראה קורסים</button>
-</div>
+        <ul>
+        <li>גישה לכל הקורסים</li>
+        <li>גישה לקהילה</li>
+    </ul>
+    <p>30</p>
+   <a href="../login/loginPage.html"><button class="button">לרכישה</button></a></div>
 
-<div class="card-community">
-    <div class="card-title">
-<img src="../../images/CO94 (1).png" alt="Community Icon">
-  <h2>Community</h2>
+<div class="yearly-basic">
+    <div class="sub-card-title">
+  <h2>מנוי שנתי - בסיסי</h2>
     </div>
-    <p>התחבר עם ספורטאים נוספים, שתף חוויות ובנה קשרים מתמשכים</p>
-    <button class="button">הצטרף לקהילה</button>
+    <ul>
+        <li>גישה לכל הקורסים</li>
+        <li>גישה לקהילה</li>
+    </ul>
+    <p>270</p>
+   <a href="../login/loginPage.html"><button class="button">לרכישה</button></a></div>
+
+<div class="monthly-premium">
+    <div class="sub-card-title">
+    <h2>מנוי חודשי - פרימיום</h2>
+    </div>
+    <ul>
+        <li>גישה לכל הקורסים</li>
+        <li>גישה לקהילה</li>
+        <li>גישה למאגר מאמנים</li>
+        <li>כניסה לאירועי לייב</li>
+        <li>תוכן מאחורי הקלעים</li>
+    </ul>
+    <p>45</p>
+   <a href="../login/loginPage.html"><button class="button">לרכישה</button></a></div>
+
+<div class="yearly-premium">
+    <div class="sub-card-title">
+  <h2>מנוי שנתי - פרימיום</h2>
+    </div>
+    <ul>
+        <li>גישה לכל הקורסים</li>
+        <li>גישה לקהילה</li>
+        <li>גישה למאגר מאמנים</li>
+        <li>כניסה לאירועי לייב</li>
+        <li>תוכן מאחורי הקלעים</li>
+    </ul>
+    <p>380</p>
+    <a href="../login/loginPage.html"><button class="button">לרכישה</button></a>
 </div>
 
 </section>
 <!-- end of cards section-->
 
-<!-- athletes section-->
-<section class="athletes">
-        <div class="athlete-title">
-             <h2>הספורטאים שלנו</h2>
-        <p>הכר את הספורטאים המצטיינים שלנו, שייצגו את הכיתה שלנו בגאווה</p>
-        </div>
-        <div class="athlete-cards">
-            <div id='deni' class="athlete">
-                <img src="../../images/deni.webp" alt="Athlete 1">
-                <h3>דני אבדיה</h3>
-            </div>
-            <div id="eran" class="athlete">
-                <img src="../../images/eran.jpg" alt="Athlete 2">
-                <h3>ערן זהבי</h3>
-                </div>
-            <div id="omri" class="athlete">
-                <img src="../../images/casspi.jpeg" alt="Athlete 1">
-                <h3>עומרי כספי</h3>
-            </div>
-            <div id="manor" class="athlete">
-                <img src="../../images/manor.jpeg" alt="Athlete 2">
-                <h3>מנור סולומון</h3>
-                </div>
-                </div>
-</section>
-<!-- end of athletes section-->
+
     </main>
     <!-- end of main section-->
-     <footer>
+    <footer>
 
         <div class="footer-content">
             <p>&copy; 2023 Class of 92. All rights reserved.</p>
