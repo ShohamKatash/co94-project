@@ -40,21 +40,23 @@
         <!-- login section-->
 <section id="log" class="log">
     <div class="log-fields">
-        <div id="email" class="email">
-        <h2 class="log-email-text">E-Mail</h2>
-        <input type="text" class="log-email-field" placeholder="Enter your email">
-        </div>
-        <div id="password" class="password">
-        <h2 class="log-password-text">Password</h2>
-        <input type="text" class="log-password-field" placeholder="Enter your password">
-        </div>
-        <div id="log-button" class="log-button">
-        <button class="button">כניסה</button>
-        </div>
-        <div class="log-options">
+        <form action=" " method="POST" class="log-form">
+        <section id="email" class="email">
+            <label for="email" class="log-email-label">E-Mail</label>
+        <input type="text" class="log-email-field" placeholder="Enter your email" name="email" id="email">
+        </section>
+        <section id="password" class="password">
+        <label for="password" class="log-password-label">Password</label>
+        <input type="text" class="log-password-field" placeholder="Enter your password" name="password" id="password">
+        </section>
+        <section id="log-button" class="log-button">
+        <button type="submit" class="button">כניסה</button>
+        </section>
+        <section class="log-options">
         <p class="log-forgot-password"> שכחת את הסיסמה?<a href=""> לחץ כאן </a></p>
         <p class="does-not-signedUp">לא נרשמת עדיין? <a href="#signUp"> לחץ כאן </a></p>
-        </div>
+        </section>
+        </form>
         </div>
         <div class="log-image">
             <img src="../../images/Brand initial Simple Logo.png" alt="login image">
@@ -71,8 +73,9 @@
     </div>
     <div class="signUp-fields">
         <div class="signUp-email">
-        <h2 class="signUp-email-text">מה האימייל שלך</h2>
-        <input type="text" class="log-email-field" placeholder="הכנס את האימייל שלך">
+        <label for="signUp-email" class="signUp-email-label">מה האימייל שלך</label>
+        <input type="text" class="log-email-field" placeholder="הכנס את האימייל שלך" id="signUp-email" name="signUp-email">
+         <button type="submit" class="button">המשך</button>
         </div>
         <p> או </p>
         <div class="signUp-options">
